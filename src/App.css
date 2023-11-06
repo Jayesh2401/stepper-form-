@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.ContainerHolder{
+  /* border: 2px solid rgb(197, 41, 41); */
+}
+
+.head{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3f1566;
+  padding-top: 25px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #f8f9fa;
+  padding: 0;
+  /* background-color: rgb(117 73 116); */
+  /* background-color: blueviolet; */
+  background-color: #3f1566;
+  border: 5px solid rgb(83 225 207);
+
+  width: 50px;
+  /* border: 5px solid rgb(196 221 247); */
+
+  height: 50px;
+  border-radius: 50px;
+}
+
+.nav-pills .nav-link{
+  padding: 0;
+  /* background-color: #b07de1c2; */
+  background-color: rgb(83 225 207);
+
+  width: 50px;
+  height: 50px;
+  font-weight: 800;
+  font-size: 18px;
+  color: black;
+  border-radius: 50px;
+}
+
+.nav-pills .nav-link:disabled{
+  padding: 0;
+  background-color: #ece5f3;
+  color: black;
+  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.TabBox{
+  margin-left: 100px;
+  width: 600px;
+  /* width: 100%; */
+}
+
+.labelName{
+  font-size: 25px;
+  /* color: blueviolet; */
+  color: #3f1566;
+  font-family: serif;
+}
+
+.adjustAll{
+  width: 60%;
+    border: none;
+    /* border-bottom: 2px solid blueviolet; */
+    border-bottom: 2px solid #3f1566;
+
+    font-size: 20px;
+    outline: none;
+    font-family: serif;
+    margin-top: 15px;
+}
+
+
+
+.inBoxButton{
+  position: relative;
+  top: 120px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder { 
+  opacity: 0.5;
+  color: black;
+}
+
+::-ms-input-placeholder { 
+  opacity: 0.5;
+  color: black;
+}
+
+.firstNext{
+  width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    /* background-color: blueviolet; */
+    background-color: #3f1566;
+    color: white;
+  transition: 0.3s;
+  font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.firstNext:hover{
+  background-color: rgb(83 225 207);
+  color: black;
+  transition: 0.3s;
+}
+
+.errorM{
+  font-size: 15px;
+}
+
+.anime.active {
+  animation: slide-up 2s ease-out;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.adress{
+  border: 2px solid #3f1566;
+  max-height: 150px;
+}
+
+.settingName{
+  top: 75px;
+}
+
+.manageImage{
+  display: flex;
+  justify-content: space-between;
+}
+.maleDiv{
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.femaleDiv{
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+.male{
+  border-radius: 50%;
+  height: 170px;
+}
+
+.female{
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+
+
+.bgCol{
+  background-color: #3f1566;
+}
+

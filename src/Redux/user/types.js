@@ -1,0 +1,6 @@
+export const FIRSTSTAGE = "FIRST_STAGE"
+export const SECONDSTAGE = "SECOND_STAGE"
+export const THIRDSTAGE = "THIRD_STAGE"
+export const FOURTHSTAGE = "FOURTH_STAGE"
+export const FIFTHSTAGE = "FIFTH_STAGE"
+export const SIXTHSTAGE = "SIXTH_STAGE"
